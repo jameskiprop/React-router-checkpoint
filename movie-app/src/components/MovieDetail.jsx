@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 
+//movie detail feature
 const MovieDetail = ({ movies }) => {
   const { title } = useParams();
   const movie = movies.find((m) => m.title === title);
